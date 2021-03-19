@@ -14,4 +14,4 @@ def reverse_sort(array):
 				array[n] = tem 
 	return array			
 	
-print reverse_sort([123, 3455, 6577, 546, 345, 22, 56, 7])	
+print(reverse_sort([123, 3455, 6577, 546, 345, 22, 56, 7]))	
