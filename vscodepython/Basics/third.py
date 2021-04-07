@@ -42,10 +42,20 @@ for num in mystring:
     else:
         print("not matching")
         print(num)
-
-
-
-
+abcd = "this is siva"
+for num in abcd:
+    if num == "t":
+        continue
+    print(num)
+thislist = [36483,889,222,2333]
+print(thislist)
+for num in thislist:
+    print(num)
+    if num % 2 == 0:
+        print('this is evev number', + num )
+    else:
+        print('this is odd number', + num)
+        
 
 
 
