@@ -13,7 +13,7 @@ else:
 loc = 'bank'
 if loc == 'zimmy':
     print('zimmy is good')
-if loc == 'bank':
+elif loc == 'bank':
     print('all is well')
 else:
     print('good is well')
@@ -28,4 +28,9 @@ for my_list in my_num:
 for my_list in my_num:
     if my_list%2 ==0:
         print(my_list)
+
+mylist = [(1,2,3),(5,6,7),(8,9,10)]
+for item in mylist:
+    print(item)
+    
 
